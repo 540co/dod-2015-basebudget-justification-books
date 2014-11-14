@@ -33,6 +33,10 @@ example
 
 by the included `fetch_jbook_list.php` script.
 
+```
+The script does not properly handle the 2015 PROCUREMENT / P5A_P21Book.PDF (http://www.finance.hq.navy.mil/FMB/15pres/P5A_P21_Book.pdf) and this file was manually downloaded / extracted.  The issue is this file has the same filenames for attachments, and they end up overwriting each other.
+```
+
 > **IMPORTNAT NOTE** 
 >
 You do NOT necessarily need to run this script - as all of the extracted files are included in this repo.  A log of each the extract is also included in `fetch.log`
